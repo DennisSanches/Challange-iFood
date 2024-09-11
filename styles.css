@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f7f6;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background: linear-gradient(135deg, #fffdfe, #5c5b5b);
+    /* Gradiente de cor */
+    color: rgb(0, 0, 0);
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h4 {
+    margin-bottom: 20px;
+    padding: 10px
+}
+
+.sidebar a {
+    color: #050505;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.logo {
+
+    max-width: 100px;
+    /* Limita a largura máxima */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-bottom: 100px;
+    /* Espaço abaixo da logo */
+    display: block;
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+
+    div:first-child {
+        flex: .2;
+    }
+
+    div:last-child {
+        flex: 1;
+    }
+}
