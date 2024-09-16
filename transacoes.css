@@ -1,0 +1,24 @@
+.btn-rounded {
+    border-radius: 80px; 
+}
+
+.btn-primary{
+background-color: red;
+border: none;
+}
+
+.btn-primary:hover {
+    background-color: #cc0000; /* Tom de vermelho mais escuro para hover */
+    border-color: #cc0000; /* Cor da borda em hover */
+}
+
+/* Personaliza o estado de focus do botão primário */
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5); /* Cor da sombra do foco */
+    outline: none; /* Remove o outline padrão */
+}
+
+.btn-secondary{
+background-color: gray;
+border: none;
+}

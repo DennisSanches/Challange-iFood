@@ -54,14 +54,20 @@ body {
 }
 
 .logo {
-
-    max-width: 100px;
+ max-width: 100px;
     /* Limita a largura máxima */
     height: auto;
     /* Mantém a proporção da imagem */
-    margin-bottom: 100px;
-    /* Espaço abaixo da logo */
-    display: block;
+   
+}
+.sidebar-header{
+margin-bottom: 20px;
+border-bottom: 1px solid rgb(177, 177, 177);;
+}
+
+.sidebar-header p{
+font-size: 25px;
+font-weight: 600;
 }
 
 .box {
