@@ -14,55 +14,59 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Ajuste da logo na navbar -->
+            <img src="/images/logo.png" alt="logo" class="navbar-logo">
+            <a class="navbar-brand ms-2" href="#">Finances</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="d-flex">
         <div class="sidebar">
-             <!-- Logo e Links -->
+            <!-- Logo e Links -->
             <div class="sidebar-header d-flex align-items-center">
-                <img src="/images/logo.png" alt="Logo" class="logo">
-                <p class="ms-2">Finances</p>
+                <p class="ms-2">Transações</p>
             </div>
-            <h4>Painel Financeiro</h4>
-            <a href="/pages/dashboard.html">Dashboard</a>
+            <a href="/pages/dashboard2.html">Dashboard</a>
             <a href="#transacoes">Transações</a>
             <a href="#saldo">Saldo</a>
             <a href="#extrato">Extrato</a>
         </div>
 
         <div class="content">
-            <nav class="navbar navbar-expand-lg bg-light mb-4">
-                <div class="container-fluid">
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <form class="d-flex ms-auto" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-
-            <header>
-
-            </header>
-
             <!-- Tabela de Transações -->
             <div class="content-screen">
                 <input class="form-control me-2 search mb-4" type="search" placeholder="Pesquisar" aria-label="Search">
                 <div class="table-responsive">
                     <table class="table table-striped table-hover">
-                        <thead class="table-dark">
+                        <thead class="table">
                             <tr>
                                 <th scope="col">Pedido</th>
                                 <th scope="col">Items</th>
-                                <th scope="col">Total  </th>
+                                <th scope="col">Total </th>
                                 <th scope="col">Hora</th>
                                 <th scope="col">Status</th>
-                         
                             </tr>
                         </thead>
                         <tbody>
@@ -72,7 +76,7 @@
                                 <td>R$ 9,00</td>
                                 <td>12:00</td>
                                 <td>Entregue</td>
-                                
+
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
@@ -80,7 +84,7 @@
                                 <td>R$ 5,00</td>
                                 <td>15:00</td>
                                 <td style="color: burlywood;">Em progresso</td>
-                                
+
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
@@ -88,18 +92,18 @@
                                 <td>R$ 55,00</td>
                                 <td>22:00</td>
                                 <td style="color: red;">Cancelado</td>
-                                
+
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                 <div class="buttons d-flex">
+                <div class="buttons d-flex">
                     <button class="btn btn-primary me-2 btn-rounded">Adicionar Pedido</button>
                     <button class="btn btn-secondary btn-rounded">Editar Pedido</button>
                 </div>
-                </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -3,12 +3,12 @@
 }
 
 .btn-primary{
-background-color: red;
+background-color: rgb(105, 2, 45);
 border: none;
 }
 
 .btn-primary:hover {
-    background-color: #cc0000; /* Tom de vermelho mais escuro para hover */
+    background-color: #240021; /* Tom de vermelho mais escuro para hover */
     border-color: #cc0000; /* Cor da borda em hover */
 }
 
@@ -21,4 +21,44 @@ border: none;
 .btn-secondary{
 background-color: gray;
 border: none;
+
+}/* Estilos para ajustar a logo na navbar */
+.navbar-logo {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
 }
+
+/* Estilos para a imagem de perfil na sidebar */
+.profile-img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px;
+    border-radius: 50%; /* Faz a imagem ficar redonda */
+    object-fit: cover; /* Ajusta a imagem para cobrir a área de forma proporcionada */
+}
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(105, 2, 45);
+    padding: 20px;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar a {
+    color: #fafafa;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color:#240021;
+    color: #fff;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+
+
