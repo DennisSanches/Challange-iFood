@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Montserrat'; 
+}
+
+.header-logo-text {
+    font-weight: 600;
+}
+
 .btn-rounded {
     border-radius: 80px; 
 }
@@ -69,6 +85,11 @@ border: none;
         background-image: url(https://www.jomafe.pt/media/slidebanner/t/a/taco_chilli.amb.banner.jpg);
         background-position: center;
 }
+
+.content-screen{
+width: 50%;
+}
+
 .sidebar-header p {
     font-size: 25px;
     font-weight: 600;

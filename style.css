@@ -1,9 +1,47 @@
-/* Estilos para ajustar a logo na navbar */
-.navbar-logo {
-    width: 50px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
-    
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --body-color: #ececee;
+    --sidebar-color: #FFF;
+    --primary-color: #ff2800;
+    --primary-color-light: rgb(56, 52, 53);
+    --toggle-color: #DDD;
+    --text-color: #707070;
+    --title-color: #2F5EAB;
+    --input-color: #ececec;
+
+    /* ======== Transition ======= */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+
+    /* ======== Padding =========== */
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Montserrat';
+}
+
+.header-logo-text {
+    font-weight: 600;
+}
+
+.navbar-logo {
+    width: 50px;
+    /* Ajuste o tamanho conforme necessário */
+    height: auto;
+
+}
+
 .navbar {
     background-color: #f8f9fa;
     border-bottom: 1px solid #ddd;
@@ -11,10 +49,13 @@
 
 /* Estilos para a imagem de perfil na sidebar */
 .profile-img {
-    width: 70px; /* Ajuste o tamanho conforme necessário */
+    width: 70px;
+    /* Ajuste o tamanho conforme necessário */
     height: 70px;
-    border-radius: 50%; /* Faz a imagem ficar redonda */
-    object-fit: cover; /* Ajusta a imagem para cobrir a área de forma proporcionada */
+    border-radius: 50%;
+    /* Faz a imagem ficar redonda */
+    object-fit: cover;
+    /* Ajusta a imagem para cobrir a área de forma proporcionada */
 }
 
 
@@ -54,7 +95,7 @@
 }
 
 .sidebar a:hover {
-    background-color:#746e6e;
+    background-color: #746e6e;
     color: #fff;
     padding-left: 10px;
     transition: 0.3s;
@@ -63,14 +104,18 @@
 
 /* Ajuste geral do texto ao lado da imagem */
 .sidebar-header p {
-    font-size: 15px;    /* Tamanho do texto */
-    font-weight: bold;  /* Texto em negrito para dar destaque */
+    font-size: 15px;
+    /* Tamanho do texto */
+    font-weight: bold;
+    /* Texto em negrito para dar destaque */
 }
 
 /* Ajuste para espaçamento e alinhamento */
 .sidebar-header {
-    padding: 10px;    /* Espaçamento interno */
-    align-items: center;  /* Alinhamento vertical do texto e da imagem */
+    padding: 10px;
+    /* Espaçamento interno */
+    align-items: center;
+    /* Alinhamento vertical do texto e da imagem */
 }
 
 
@@ -78,7 +123,7 @@
 .container {
     padding: 20px;
     color: #f7f8fa;
-    margin-top: 175px;
+
 }
 
 .content {
@@ -94,7 +139,8 @@
     width: 100%;
 }
 
-.left-column, .right-column {
+.left-column,
+.right-column {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -112,11 +158,17 @@
 
 /* Estilos básicos para info-box */
 .info-box {
-    background-color: rgb(56, 52, 53);; /* Cor de fundo da caixa */
-    border: 1px solid #0e0105;    /* Borda cinza clara */
-    border-radius: 8px;        /* Bordas arredondadas */
-    padding: 20px;             /* Espaçamento interno */
-    transition: all 0.3s ease; /* Transição suave para efeitos */
+    background-color: rgb(56, 52, 53);
+    ;
+    /* Cor de fundo da caixa */
+    border: 1px solid #0e0105;
+    /* Borda cinza clara */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    padding: 20px;
+    /* Espaçamento interno */
+    transition: all 0.3s ease;
+    /* Transição suave para efeitos */
     min-height: 205px;
     text-align: center;
     display: flex;
@@ -128,13 +180,17 @@
 
 /* Efeito hover para info-box */
 .info-box:hover {
-    background-color: #746e6e; /* Cor de fundo ao passar o mouse */
-    border-color: #000000;        /* Cor da borda ao passar o mouse */
-    box-shadow: 0 4px 8px rgb(0, 0, 0); /* Sombra ao passar o mouse */
-    transform: translateY(-5px); /* Move a caixa para cima */
+    background-color: #746e6e;
+    /* Cor de fundo ao passar o mouse */
+    border-color: #000000;
+    /* Cor da borda ao passar o mouse */
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    /* Sombra ao passar o mouse */
+    transform: translateY(-5px);
+    /* Move a caixa para cima */
 }
 
-.chart-box h4{
+.chart-box h4 {
     color: black;
 }
 
@@ -156,7 +212,9 @@
         flex-direction: column;
     }
 
-    .left-column, .right-column, .chart-box {
+    .left-column,
+    .right-column,
+    .chart-box {
         flex: 1 1 100%;
     }
 }
