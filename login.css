@@ -26,12 +26,33 @@
 .mb-3{
     color: #020202;
 }
-.d-flex{
+/* Estilo geral para o container com imagem de fundo */
+.d-flex {
     background-image: url(/images/login.jpg);
+    background-size: cover; /* Faz com que a imagem cubra todo o container */
+    background-position: center; /* Centraliza a imagem no container */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Faz com que a imagem de fundo permaneça fixa durante o scroll */
 }
-@media (max-width: 768px) {
+
+/* Ajustes para telas grandes (desktops) */
+@media (min-width: 992px) {
     .d-flex {
-        background-size: cover; /* Garante que a imagem cubra toda a área */
-        background-position: center center; /* Mantém a centralização da imagem */
+        height: 100vh; /* Altura total da viewport */
     }
 }
+
+/* Ajustes para telas médias (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .d-flex {
+        height: 75vh; /* Ajusta a altura para se adequar à viewport em tablets */
+    }
+}
+
+/* Ajustes para telas pequenas (smartphones) */
+@media (max-width: 767px) {
+    .d-flex {
+        height: 50vh; /* Reduz a altura para se ajustar a telas menores */
+    }
+}
+
