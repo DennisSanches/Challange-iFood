@@ -1,0 +1,37 @@
+/* Estilos para o card de login */
+.card {
+    background-color: rgba(255, 255, 255, 0.685);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-label {
+    color: #020202;
+}
+
+.btn-primary {
+    background-color: #ff002b; /* Cor do botão (ajuste conforme necessário) */
+    border-color: #ff002b;;
+}
+
+.btn-primary:hover {
+    background-color: #aa1010; /* Cor do botão ao passar o mouse */
+    border-color: #fcfcfc;
+}
+.mb-3{
+    color: #020202;
+}
+.d-flex{
+    background-image: url(/images/login.jpg);
+}
+@media (max-width: 768px) {
+    .d-flex {
+        background-size: cover; /* Garante que a imagem cubra toda a área */
+        background-position: center center; /* Mantém a centralização da imagem */
+    }
+}
