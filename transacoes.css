@@ -3,13 +3,13 @@
 }
 
 .btn-primary{
-background-color: rgb(105, 2, 45);
+background-color: rgb(189, 31, 31);
 border: none;
 }
 
 .btn-primary:hover {
-    background-color: #240021; /* Tom de vermelho mais escuro para hover */
-    border-color: #cc0000; /* Cor da borda em hover */
+    background-color: #8b2138; /* Tom de vermelho mais escuro para hover */
+    border-color: #080808; /* Cor da borda em hover */
 }
 
 /* Personaliza o estado de focus do botão primário */
@@ -17,6 +17,8 @@ border: none;
     box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5); /* Cor da sombra do foco */
     outline: none; /* Remove o outline padrão */
 }
+
+.btn-active
 
 .btn-secondary{
 background-color: gray;
@@ -38,7 +40,7 @@ border: none;
 .sidebar {
     width: 200px;
     height: 100vh;
-    background-color: rgb(105, 2, 45);
+    background-color: rgb(56, 52, 53);
     padding: 20px;
     color: #ffffff;
     position: sticky;
@@ -54,11 +56,26 @@ border: none;
 }
 
 .sidebar a:hover {
-    background-color:#240021;
+    background-color:#746e6e;
     color: #fff;
     padding-left: 10px;
     transition: 0.3s;
 }
+.content {
+    padding: 20px;
+    flex: 1;
+        padding: 20px;
+        flex: 1;
+        background-image: url(https://www.jomafe.pt/media/slidebanner/t/a/taco_chilli.amb.banner.jpg);
+        background-position: center;
+}
+.sidebar-header p {
+    font-size: 25px;
+    font-weight: 600;
+}
 
-
-
+.sidebar-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    ;
+}
