@@ -62,8 +62,8 @@ body {
 
 /* Estilos para a Sidebar */
 .sidebar {
-    width: 200px;
-    height: calc(100vh - 67px);
+    width: 230px;
+    height: 100vh;
     background-color: rgb(56, 52, 53);
     padding: 20px;
     color: #ffffff;
