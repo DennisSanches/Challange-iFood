@@ -192,12 +192,17 @@ body {
     color: black;
 }
 
-
-
 .w-100 {
     background-image: url(/images/Website-Banner-Indian-Range-Teaser-1920-x-1080.png);
     background-size: cover;
     background-position: center;
+}
+
+.gif {
+    position: relative;
+    left: 200px;
+    width: 20px;
+    margin-top: 20px;
 }
 
 
